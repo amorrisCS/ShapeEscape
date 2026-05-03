@@ -9,7 +9,7 @@ public class Goal : MonoBehaviour
         if (other.tag == "Player")
         {
             Goal.escaped = true;
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Level3Scene");
             Material mat = GetComponent<Renderer>().material;
             Color color = mat.color;
             color.a = 0.5f;
